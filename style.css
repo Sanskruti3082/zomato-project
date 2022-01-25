@@ -1,0 +1,523 @@
+element.style {
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html[Attribute Style] {
+  -webkit-locale: "en";
+}
+html {
+  display: block;
+}
+head {
+  display: none;
+}
+meta {
+  display: none;
+}
+title {
+  display: none;
+}
+link {
+  display: none;
+}
+
+body {
+  font-family: "Merriweather", sans-serif;
+  background-color: #ebf2ff;
+  overflow-x: hidden;
+  transition: 0.5sec;
+}
+body {
+  display: block;
+}
+header {
+  display: block;
+}
+@media (min-width: 768px)
+.navbar {
+  justify-content: space-between;
+  padding: 2px 30px;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9fafc;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%),
+             0 4px 6px -2px rgb(0 0 0 / 5%);
+ z-index: 9999;
+}
+.navbar__brand {
+  width: 100px;
+}
+.container {
+  max-width: 100%
+  padding: 0 20px;
+  margin: 0 auto;
+}
+div {
+  display: block;
+}
+.navbar__logo {
+  width: 100%;
+}
+
+.butoon__primary {
+  margin: 10px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  transition: 0.5s;
+  font-weight: 600;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 4px;
+}
+.button__primary {
+  background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+button {
+  appearance: auto;
+    -webkit-writing-mode: horizontal-tb !important;
+    font-style: normal;
+    font-variant-ligatures:normal;
+    font-variant-caps:normal;
+    font-variant-numeric:normal;
+    font-variant-east-asian:normal;
+    font-stretch:condensed;
+    font-size: 30px;
+    font-family:sans-serif ;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    align-items: flex-start;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  }
+  .hamburger__menu > div {
+    width: 35px;
+    height: 5px;
+    background-color: #f9fafc;
+    margin: 6px 0;
+}
+.container {
+    width: 100%;
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto;
+  }
+  main {
+    display: block;
+  }
+  @media (min-width: 768px) {
+    hero__container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .hero__container {
+    margin-top: 1rem;
+  }
+  section {
+    margin: 4rem 0;
+  }
+  .hero__image__container {
+    position: absolute;
+    width: 50%;
+  }
+  @media (min-width: 768px)
+  .hero__image {
+   margin-top: 2rem;
+
+ }
+ .hero__image {
+   position: absolute;
+    width: 100%;
+    right: auto;
+    left: auto;
+    z-index: 2;
+    border-radius: 6px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 25%);
+ }
+.hero__text {
+  font-size: 1.875rem;
+    line-height: 2.25rem;
+    color: #1d3557;
+    font-weight: 900;
+}
+.button__primary {
+    margin: 10px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    font-weight: 600;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 4px;
+    display: block;
+}
+.button__primary {
+    background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+  }
+  .man__image {
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .man__image__container {
+    margin-top: 3rem;
+    align-items: center;
+    width: 100%
+  }
+  @media (min-width: 768px)
+  .man__image__footage {
+    margin-left: 2rem;
+  }
+  .man__image__footage {
+    position: relative;
+  }
+  .man__footage::before {
+    background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    transform: translate(1rem, 1rem);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.man__footage__text {
+  background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    transform: translate(1rem, 1rem);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+p {
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+@media (min-width: 768px)
+.explore__menu__container {
+    position: relative;
+  }
+  @media (min-width: 768px)
+  .explore__menu__container{
+    margin-top: 30px;
+  }
+  .explore__menu__text {
+    font-size: 30px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .explore__menu__gradient__bg {
+    left: 0;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transform: skewY(-5deg);
+    background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+    z-index: -3;
+  }
+.explore__menu__lists {
+  margin-top: 40px;
+  display: flex;
+  gap: 15px;
+  padding: 0 30px;
+}
+.food__card {
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: 1rem;
+
+}
+.food__menu__card__details {
+    padding: 1rem;
+    text-align: left;
+    color: #1d3557;
+}
+.food__card__image__container {
+  width: 100%;
+}
+.food__image {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.food__card__description {
+  padding: 15px;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+element.style {
+ color: #D83A56;
+}
+@media (min-width:768px)
+#pizza__card {
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+.food__card {
+  background-color: #fff;
+  border-radius: 8px;
+}
+.food__card__image__container {
+  width: 100%;
+}
+.food__image{
+  width: 100%;
+  border-radius: 8px 8px 0 0 ;
+}
+.food__card__description {
+  padding: 15px;
+}
+element.style {
+  color: red;
+}
+@media (min-width: 768px)
+explore__menu__view__more {
+   display: flex;
+   justify-content: center;
+ }
+ @media (min-width:768px)
+ .restaurant__container {
+     display: flex;
+     align-items: center;
+ }
+ @media (min-width: 768px)
+ .restuarant__text{
+   width: 100%;
+   font-size: 40px;
+  }
+  .restuarant__text {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+ .restuarant__image__container{
+   width: 100%;
+ }
+.restuarant__images__row__1 {
+  align-item: baseline;
+  margin-bottom: 3px;
+}
+.restuarant__images__row_1 {
+  width: 100%;
+  display: flex;
+  gap: 3px;
+}
+.restuarant__image__1, .restuarant__image__4 {
+  border-radius: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 150px;
+  height: 80px;
+  box-shadow: 0 10px 10px -3px rgb(0 0 0 /10%),
+             0 4px 6px -2px rgb(0 0 0 /7%)
+}
+.restuarant__1, .restuarant__2, .restuarant__3, .restuarant__4 {
+  width: 100%
+  height: 100%
+}
+.restaurant__image__2, .restaurant__image__3 {
+  border-radius: 4px;
+  width: 200px;
+  height: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 3px;
+  margin-left: 3px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%),
+        0 4px 6px -2px rgb(0 0 0 / 7%);
+}
+.restaurant__images__row__1, .restaurant__images__row__2 {
+  width: 100%
+  display: flex;
+  gap: 3px;
+}
+@media (min-width: 768px)
+.email__subscribe__container {
+  display: flex;
+  justify-content: center;
+}
+.email__subscribe__container{
+  margin-top: 3rem;
+  width: 100%;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+}
+: -webkit-any(article, aside, nav, section) h1 {
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+}
+div {
+  display: block;
+
+}
+.text-xl {
+  display: block;
+  margin-inline-start: 0;
+  margin-inline-end:0;
+  font-weight: bold;
+  text-align: center;
+}
+.email__subcribe__input__field {
+  display: block;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  text-align: center;
+}
+@media (min-width: 768px)
+.email__input {
+  margin-top: 10px;
+  width: 250px;
+  height: 45px;
+
+}
+.email__input {
+  width: 20rem;
+
+}
+.email__input {
+  border: 1px solid #ee89a0;
+  background-color: #fcedf0;
+  color: #1d3557;
+  font-weight: 700;
+  padding: 0.5rem;
+  border-radius: 4px;
+
+}
+input [type "email" i] {
+  padding: 1px 2px;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    font-style:normal ;
+    font-variant-ligatures:normal ;
+    font-variant-caps:normal ;
+    font-variant-numeric:normal;
+    font-variant-east-asian:normal ;
+    font-stretch:normal ;
+    font-size:30px ;
+    font-family:sans-serif ;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+  }
+  @media (min-width: 768px)
+  .quote__container {
+    height: 300px;
+    width: 100%;
+  }
+.quote__container {
+    position: relative;
+    margin-top: 4rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 13px;
+  }
+  .banner {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .banner img {width: 100%;}
+  .heading {
+    color: white;
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align:center;
+    font-size: 42px;
+  }
+  @media (min-width: 768px)
+  .quote__image__text {
+    color: white;
+    z-index: 3;
+    margin: 0 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .footer {
+    display: flex;
+    margin-top: 45px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem 1rem 0 0;
+    background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+  }
+  .footer > img {
+    width: 300px;
+  filter: brightness(0) invert(1);
+}
+.footer > ul {
+    margin-top: -1rem;
+  color: #fff;
+}
+.footer > ul > li {
+    margin: 5px 0;
+  }
